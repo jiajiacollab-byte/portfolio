@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body data-page="oc">
 
 <header class="site-header">
   <div class="container">
@@ -22,13 +22,18 @@
     </a>
     <nav aria-label="Primary">
       <ul class="nav-links">
-        <li><a href="../index.html#skills">Skills</a></li>
-        <li><a href="../index.html#projects">Projects</a></li>
-        <li><a href="../index.html#experience">Experience</a></li>
-        <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../index.html#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="../index.html#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="../index.html#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="../index.html#about" data-i18n="nav.about">About</a></li>
+        <li><a href="../index.html#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher" role="group" aria-label="Language">
+      <button class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+      <button class="lang-btn" data-lang="zh" aria-pressed="false">中</button>
+    </div>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -38,11 +43,11 @@
 <main class="case-page">
   <section class="case-hero">
     <div class="container">
-      <a href="../index.html#projects" class="back-link">← Back to Projects</a>
-      <span class="section-label">Online Course · Marketing & Product Positioning</span>
-      <h1 class="section-heading">Occlusion Online Course</h1>
-      <p class="section-intro">Turning raw course recordings into a marketable product, led by Dr. Su — built from scratch with no existing positioning or marketing material.</p>
-      <p class="section-intro" style="margin-top:8px;">Online dental education program · 2-month launch campaign</p>
+      <a href="../index.html#projects" class="back-link" data-i18n="common.backToProjects">← Back to Projects</a>
+      <span class="section-label" data-i18n="proj.oc.tag">Online Course · Marketing & Product Positioning</span>
+      <h1 class="section-heading" data-i18n="proj.oc.title">Occlusion Online Course</h1>
+      <p class="section-intro" data-i18n="oc.subtitle1">Turning raw course recordings into a marketable product, led by Dr. Su — built from scratch with no existing positioning or marketing material.</p>
+      <p class="section-intro" style="margin-top:8px;" data-i18n="oc.subtitle2">Online dental education program · 2-month launch campaign</p>
     </div>
   </section>
 
@@ -51,15 +56,15 @@
       <div class="results-highlight">
         <div class="result-box">
           <span class="num">15.8x</span>
-          <span class="label">Return on Ad Spend</span>
+          <span class="label" data-i18n="oc.stat1">Return on Ad Spend</span>
         </div>
         <div class="result-box">
           <span class="num">92</span>
-          <span class="label">Orders</span>
+          <span class="label" data-i18n="oc.stat2">Orders</span>
         </div>
         <div class="result-box">
           <span class="num">$0.10</span>
-          <span class="label">Average CPC</span>
+          <span class="label" data-i18n="oc.stat3">Average CPC</span>
         </div>
       </div>
     </div>
@@ -70,24 +75,24 @@
       </div>
       <div class="case-meta-list">
         <div class="case-meta-item">
-          <h4>My Role</h4>
-          <p>Marketing &amp; Launch Owner</p>
+          <h4 data-i18n="common.myRole">My Role</h4>
+          <p data-i18n="oc.metaRole">Marketing &amp; Launch Owner</p>
         </div>
         <div class="case-meta-item">
-          <h4>Format</h4>
-          <p>Online Course</p>
+          <h4 data-i18n="common.format">Format</h4>
+          <p data-i18n="oc.metaFormat">Online Course</p>
         </div>
         <div class="case-meta-item">
-          <h4>Timeline</h4>
-          <p>2-Month Launch Campaign</p>
+          <h4 data-i18n="common.timeline">Timeline</h4>
+          <p data-i18n="oc.metaTimeline">2-Month Launch Campaign</p>
         </div>
         <div class="case-meta-item">
-          <h4>Revenue</h4>
+          <h4 data-i18n="common.revenue">Revenue</h4>
           <p>$4.0K USD</p>
         </div>
         <div class="case-meta-item">
-          <h4>Audience</h4>
-          <p>Dentists</p>
+          <h4 data-i18n="common.audience">Audience</h4>
+          <p data-i18n="oc.metaAudience">Dentists</p>
         </div>
       </div>
     </div>
@@ -95,20 +100,20 @@
     <div class="case-narrative">
       <div class="story-timeline">
         <div class="story-item">
-          <h3>Problem</h3>
-          <p>The instructor delivered finished course recordings but almost no marketing material. A highly technical, academic topic (occlusion) had to be turned into a clear, sellable product with no existing positioning or messaging to build on.</p>
+          <h3 data-i18n="common.problem">Problem</h3>
+          <p data-i18n="oc.problem">The instructor delivered finished course recordings but almost no marketing material. A highly technical, academic topic (occlusion) had to be turned into a clear, sellable product with no existing positioning or messaging to build on.</p>
         </div>
         <div class="story-item">
-          <h3>My Role</h3>
-          <p>Full launch owner: landing page copywriting, social content, ad creative strategy, Meta advertising management, course setup, and enrollment support.</p>
+          <h3 data-i18n="common.myRole">My Role</h3>
+          <p data-i18n="oc.myRole">Full launch owner: landing page copywriting, social content, ad creative strategy, Meta advertising management, course setup, and enrollment support.</p>
         </div>
         <div class="story-item">
-          <h3>Action</h3>
-          <p>Segmented the audience into two clinical skill levels, wrote the positioning and full landing page from scratch, and built a multi-touch ad funnel (content → teaser → enrollment → countdown) across Meta and LINE.</p>
+          <h3 data-i18n="common.action">Action</h3>
+          <p data-i18n="oc.action">Segmented the audience into two clinical skill levels, wrote the positioning and full landing page from scratch, and built a multi-touch ad funnel (content → teaser → enrollment → countdown) across Meta and LINE.</p>
         </div>
         <div class="story-item">
-          <h3>Result</h3>
-          <p>92 orders at a 15.8x return on ad spend, reaching 84% of the campaign revenue target and a 7% order increase over the previous course launch.</p>
+          <h3 data-i18n="common.result">Result</h3>
+          <p data-i18n="oc.result">92 orders at a 15.8x return on ad spend, reaching 84% of the campaign revenue target and a 7% order increase over the previous course launch.</p>
         </div>
       </div>
     </div>
@@ -117,10 +122,11 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; 2026 Jia Jia. Built with HTML, CSS &amp; JavaScript.</p>
+    <p data-i18n="footer.copyright">&copy; 2026 Jia Jia. Built with HTML, CSS &amp; JavaScript.</p>
   </div>
 </footer>
 
+<script src="../js/i18n.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>

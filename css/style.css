@@ -141,6 +141,32 @@ section { padding: 96px 0; }
   font-weight: 500;
 }
 .nav-links a:hover { color: var(--color-accent); text-decoration: none; }
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 24px;
+  padding-left: 24px;
+  border-left: 1px solid var(--color-border);
+}
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 5px 8px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color var(--transition), background var(--transition);
+}
+.lang-btn:hover { color: var(--color-text); }
+.lang-btn.is-active { color: var(--color-accent); background: var(--color-bg); }
+@media (max-width: 720px) {
+  .lang-switcher { margin-left: 12px; padding-left: 12px; }
+}
 .nav-toggle {
   display: none;
   background: none;
@@ -284,7 +310,7 @@ section { padding: 96px 0; }
   margin-top: 40px;
 }
 .flip-card {
-  height: 260px;
+  height: 320px;
   perspective: 1200px;
   cursor: pointer;
 }

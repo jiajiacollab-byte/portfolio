@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body data-page="en">
 
 <header class="site-header">
   <div class="container">
@@ -22,13 +22,18 @@
     </a>
     <nav aria-label="Primary">
       <ul class="nav-links">
-        <li><a href="../index.html#skills">Skills</a></li>
-        <li><a href="../index.html#projects">Projects</a></li>
-        <li><a href="../index.html#experience">Experience</a></li>
-        <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../index.html#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="../index.html#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="../index.html#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="../index.html#about" data-i18n="nav.about">About</a></li>
+        <li><a href="../index.html#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher" role="group" aria-label="Language">
+      <button class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+      <button class="lang-btn" data-lang="zh" aria-pressed="false">中</button>
+    </div>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -38,11 +43,11 @@
 <main class="case-page">
   <section class="case-hero">
     <div class="container">
-      <a href="../index.html#projects" class="back-link">← Back to Projects</a>
-      <span class="section-label">Online Course · Specialized Education Marketing</span>
-      <h1 class="section-heading">Ultrasonic-Assisted Endodontics</h1>
-      <p class="section-intro">Marketed a niche endodontic specialty course into an already-saturated instructor catalog, led by Dr. Liao, by repositioning around practical clinical workflow gains rather than technical features.</p>
-      <p class="section-intro" style="margin-top:8px;">Online dental education program · Specialized endodontic audience</p>
+      <a href="../index.html#projects" class="back-link" data-i18n="common.backToProjects">← Back to Projects</a>
+      <span class="section-label" data-i18n="proj.en.tag">Online Course · Specialized Education Marketing</span>
+      <h1 class="section-heading" data-i18n="proj.en.title">Ultrasonic-Assisted Endodontics</h1>
+      <p class="section-intro" data-i18n="en.subtitle1">Marketed a niche endodontic specialty course into an already-saturated instructor catalog, led by Dr. Liao, by repositioning around practical clinical workflow gains rather than technical features.</p>
+      <p class="section-intro" style="margin-top:8px;" data-i18n="en.subtitle2">Online dental education program · Specialized endodontic audience</p>
     </div>
   </section>
 
@@ -51,15 +56,15 @@
       <div class="results-highlight">
         <div class="result-box">
           <span class="num">52</span>
-          <span class="label">Orders</span>
+          <span class="label" data-i18n="en.stat1">Orders</span>
         </div>
         <div class="result-box">
           <span class="num">6.6x</span>
-          <span class="label">Return on Ad Spend</span>
+          <span class="label" data-i18n="en.stat2">Return on Ad Spend</span>
         </div>
         <div class="result-box">
           <span class="num">$0.07</span>
-          <span class="label">Best CPC</span>
+          <span class="label" data-i18n="en.stat3">Best CPC</span>
         </div>
       </div>
     </div>
@@ -70,24 +75,24 @@
       </div>
       <div class="case-meta-list">
         <div class="case-meta-item">
-          <h4>My Role</h4>
-          <p>Marketing & Launch Owner</p>
+          <h4 data-i18n="common.myRole">My Role</h4>
+          <p data-i18n="en.metaRole">Marketing &amp; Launch Owner</p>
         </div>
         <div class="case-meta-item">
-          <h4>Format</h4>
-          <p>Online Course</p>
+          <h4 data-i18n="common.format">Format</h4>
+          <p data-i18n="en.metaFormat">Online Course</p>
         </div>
         <div class="case-meta-item">
-          <h4>Timeline</h4>
-          <p>Online Launch Campaign</p>
+          <h4 data-i18n="common.timeline">Timeline</h4>
+          <p data-i18n="en.metaTimeline">Online Launch Campaign</p>
         </div>
         <div class="case-meta-item">
-          <h4>Revenue</h4>
+          <h4 data-i18n="common.revenue">Revenue</h4>
           <p>$2.3K USD</p>
         </div>
         <div class="case-meta-item">
-          <h4>Audience</h4>
-          <p>Dentists (Endodontic Specialists)</p>
+          <h4 data-i18n="common.audience">Audience</h4>
+          <p data-i18n="en.metaAudience">Dentists (Endodontic Specialists)</p>
         </div>
       </div>
     </div>
@@ -95,20 +100,20 @@
     <div class="case-narrative">
       <div class="story-timeline">
         <div class="story-item">
-          <h3>Problem</h3>
-          <p>The instructor had already released multiple endodontic education programs, and the topic itself — ultrasonic-assisted treatment — served a narrow, highly specialized audience. The course needed a clear point of differentiation to stand out in an already-saturated catalog.</p>
+          <h3 data-i18n="common.problem">Problem</h3>
+          <p data-i18n="en.problem">The instructor had already released multiple endodontic education programs, and the topic itself — ultrasonic-assisted treatment — served a narrow, highly specialized audience. The course needed a clear point of differentiation to stand out in an already-saturated catalog.</p>
         </div>
         <div class="story-item">
-          <h3>My Role</h3>
-          <p>Product positioning, landing page copywriting, social content, Meta advertising management, course setup, and enrollment support.</p>
+          <h3 data-i18n="common.myRole">My Role</h3>
+          <p data-i18n="en.myRole">Product positioning, landing page copywriting, social content, Meta advertising management, course setup, and enrollment support.</p>
         </div>
         <div class="story-item">
-          <h3>Action</h3>
-          <p>Repositioned the course around practical clinical workflow gains rather than technical features, wrote the landing page and social content from scratch, and managed the Meta ad campaign end-to-end.</p>
+          <h3 data-i18n="common.action">Action</h3>
+          <p data-i18n="en.action">Repositioned the course around practical clinical workflow gains rather than technical features, wrote the landing page and social content from scratch, and managed the Meta ad campaign end-to-end.</p>
         </div>
         <div class="story-item">
-          <h3>Result</h3>
-          <p>52 orders at a 6.6x return on ad spend, with the best-performing creative reaching a $0.07 CPC.</p>
+          <h3 data-i18n="common.result">Result</h3>
+          <p data-i18n="en.result">52 orders at a 6.6x return on ad spend, with the best-performing creative reaching a $0.07 CPC.</p>
         </div>
       </div>
     </div>
@@ -117,10 +122,11 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; 2026 Jia Jia. Built with HTML, CSS &amp; JavaScript.</p>
+    <p data-i18n="footer.copyright">&copy; 2026 Jia Jia. Built with HTML, CSS &amp; JavaScript.</p>
   </div>
 </footer>
 
+<script src="../js/i18n.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>

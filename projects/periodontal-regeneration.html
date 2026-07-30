@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body data-page="pr">
 
 <header class="site-header">
   <div class="container">
@@ -22,13 +22,18 @@
     </a>
     <nav aria-label="Primary">
       <ul class="nav-links">
-        <li><a href="../index.html#skills">Skills</a></li>
-        <li><a href="../index.html#projects">Projects</a></li>
-        <li><a href="../index.html#experience">Experience</a></li>
-        <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../index.html#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="../index.html#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="../index.html#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="../index.html#about" data-i18n="nav.about">About</a></li>
+        <li><a href="../index.html#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
+    <div class="lang-switcher" role="group" aria-label="Language">
+      <button class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+      <button class="lang-btn" data-lang="zh" aria-pressed="false">中</button>
+    </div>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -38,11 +43,11 @@
 <main class="case-page">
   <section class="case-hero">
     <div class="container">
-      <a href="../index.html#projects" class="back-link">← Back to Projects</a>
-      <span class="section-label">In-Person Course · Stakeholder & Vendor Management</span>
-      <h1 class="section-heading">Periodontal Regeneration Surgery Course</h1>
-      <p class="section-intro">Coordinating a multi-sponsor advanced surgical training program, led by Dr. Xu.</p>
-      <p class="section-intro" style="margin-top:8px;">2-day intensive periodontal surgery program · 4-month preparation</p>
+      <a href="../index.html#projects" class="back-link" data-i18n="common.backToProjects">← Back to Projects</a>
+      <span class="section-label" data-i18n="proj.pr.tag">In-Person Course · Stakeholder & Vendor Management</span>
+      <h1 class="section-heading" data-i18n="proj.pr.title">Periodontal Regeneration Surgery Course</h1>
+      <p class="section-intro" data-i18n="pr.subtitle1">Coordinating a multi-sponsor advanced surgical training program, led by Dr. Xu.</p>
+      <p class="section-intro" style="margin-top:8px;" data-i18n="pr.subtitle2">2-day intensive periodontal surgery program · 4-month preparation</p>
     </div>
   </section>
 
@@ -51,15 +56,15 @@
       <div class="results-highlight">
         <div class="result-box">
           <span class="num">16 / 16</span>
-          <span class="label">Seats Filled, in 26 Days</span>
+          <span class="label" data-i18n="pr.stat1">Seats Filled, in 26 Days</span>
         </div>
         <div class="result-box">
           <span class="num">3</span>
-          <span class="label">Industry Partners Coordinated</span>
+          <span class="label" data-i18n="pr.stat2">Industry Partners Coordinated</span>
         </div>
         <div class="result-box">
           <span class="num">$127</span>
-          <span class="label">Total Ad Spend</span>
+          <span class="label" data-i18n="pr.stat3">Total Ad Spend</span>
         </div>
       </div>
     </div>
@@ -70,24 +75,24 @@
       </div>
       <div class="case-meta-list">
         <div class="case-meta-item">
-          <h4>My Role</h4>
-          <p>Project Coordination / Vendor Management</p>
+          <h4 data-i18n="common.myRole">My Role</h4>
+          <p data-i18n="pr.metaRole">Project Coordination / Vendor Management</p>
         </div>
         <div class="case-meta-item">
-          <h4>Format</h4>
-          <p>In-Person Course</p>
+          <h4 data-i18n="common.format">Format</h4>
+          <p data-i18n="pr.metaFormat">In-Person Course</p>
         </div>
         <div class="case-meta-item">
-          <h4>Timeline</h4>
-          <p>4-month prep · Course: May 22–23, 2026</p>
+          <h4 data-i18n="common.timeline">Timeline</h4>
+          <p data-i18n="pr.metaTimeline">4-month prep · Course: May 22–23, 2026</p>
         </div>
         <div class="case-meta-item">
-          <h4>Revenue</h4>
+          <h4 data-i18n="common.revenue">Revenue</h4>
           <p>$30K USD</p>
         </div>
         <div class="case-meta-item">
-          <h4>Audience</h4>
-          <p>Dentists (16 seats)</p>
+          <h4 data-i18n="common.audience">Audience</h4>
+          <p data-i18n="pr.metaAudience">Dentists (16 seats)</p>
         </div>
       </div>
     </div>
@@ -95,20 +100,20 @@
     <div class="case-narrative">
       <div class="story-timeline">
         <div class="story-item">
-          <h3>Problem</h3>
-          <p>A high-standard instructor required an authentic clinical environment, including a full dental treatment unit inside the classroom, while coordinating expectations across three external industry sponsors.</p>
+          <h3 data-i18n="common.problem">Problem</h3>
+          <p data-i18n="pr.problem">A high-standard instructor required an authentic clinical environment, including a full dental treatment unit inside the classroom, while coordinating expectations across three external industry sponsors.</p>
         </div>
         <div class="story-item">
-          <h3>My Role</h3>
-          <p>Project coordination, stakeholder and vendor management, course operations, and on-site event execution.</p>
+          <h3 data-i18n="common.myRole">My Role</h3>
+          <p data-i18n="pr.myRole">Project coordination, stakeholder and vendor management, course operations, and on-site event execution.</p>
         </div>
         <div class="story-item">
-          <h3>Action</h3>
-          <p>Aligned expectations across three industry sponsors, and coordinated the precise installation and removal of a full clinical treatment unit for a live demonstration without disrupting the course schedule.</p>
+          <h3 data-i18n="common.action">Action</h3>
+          <p data-i18n="pr.action">Aligned expectations across three industry sponsors, and coordinated the precise installation and removal of a full clinical treatment unit for a live demonstration without disrupting the course schedule.</p>
         </div>
         <div class="story-item">
-          <h3>Result</h3>
-          <p>All 16 seats sold out within 26 days with a waiting list of 4 dentists, delivered on an advertising spend of under $130.</p>
+          <h3 data-i18n="common.result">Result</h3>
+          <p data-i18n="pr.result">All 16 seats sold out within 26 days with a waiting list of 4 dentists, delivered on an advertising spend of under $130.</p>
         </div>
       </div>
     </div>
@@ -117,10 +122,11 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; 2026 Jia Jia. Built with HTML, CSS &amp; JavaScript.</p>
+    <p data-i18n="footer.copyright">&copy; 2026 Jia Jia. Built with HTML, CSS &amp; JavaScript.</p>
   </div>
 </footer>
 
+<script src="../js/i18n.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>
